@@ -1,15 +1,15 @@
-$i = 0
-$end = 100
+num = 0
+final = 100
 
-while $i <= $end do
-	if $i % 3 == 0 and $i % 5 == 0 
-		puts "#{$i} - Bitmaker Labs\n"
-	elsif $i % 3 == 0
-		puts "#{$i} - Bitmaker\n"
-	elsif $i % 5 == 0
-		puts "#{$i} - Labs\n"
+while num <= final do
+	if num % 3 == 0 and num % 5 == 0 
+		puts "#{num} - Bitmaker Labs\n"
+	elsif num % 3 == 0
+		puts "#{num} - Bitmaker\n"
+	elsif num % 5 == 0
+		puts "#{num} - Labs\n"
 	else
-		puts "#{$i}\n"
+		puts "#{num}\n"
 	end
-	$i += 1
+	num += 1
 end
