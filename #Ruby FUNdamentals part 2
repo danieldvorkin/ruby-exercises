@@ -5,4 +5,8 @@
 - Setting spaces vs tabls for indentation
 
 ## Methods
-- A method is a named sequence 
+- A method is a named sequence of instructions
+- Some programming languages refer to it as a fucntion
+- It *encapsulates* logic for re-use
+  - Basically, it allows us to write code once, and re-use it in multiple places
+  - A building block toward Don't Repeat Yourself 

@@ -18,3 +18,10 @@ grocery_list << "rice"
 
 printMethod(grocery_list)
 
+grocery_list << "Bananas"
+
+grocery_list.delete("salmon")
+
+printMethod(grocery_list)
+
+grocery_list << "salmon"
