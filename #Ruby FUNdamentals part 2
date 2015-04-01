@@ -9,4 +9,5 @@
 - Some programming languages refer to it as a fucntion
 - It *encapsulates* logic for re-use
   - Basically, it allows us to write code once, and re-use it in multiple places
-  - A building block toward Don't Repeat Yourself 
+  - A building block toward Don't Repeat Yourself (DRY)
+  - Improves maintainability of our code when there's only one point of failure 
