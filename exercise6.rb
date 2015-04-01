@@ -8,6 +8,7 @@ def printMethod(gArray)
 		puts "\* #{gArray.at(i)}"
 		i = i + 1
 	end
+	puts "Total number of items: #{gArray.length}"
 	puts "\n"
 end
 
@@ -16,3 +17,4 @@ printMethod(grocery_list)
 grocery_list << "rice"
 
 printMethod(grocery_list)
+
